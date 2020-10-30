@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol CarServiceDelegate <NSObject>
 
-- (void)didSaveCar:(NSString *) carName;
+- (void)didSaveCar:(NSString *)carName;
 
 @end
 
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (retain, strong) id<CarServiceDelegate> delegate;
 
-- (void)saveCar:(NSString *) name;
+- (void)saveCar:(NSString *)name;
 
 @end
 

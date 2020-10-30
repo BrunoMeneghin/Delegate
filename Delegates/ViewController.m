@@ -10,9 +10,10 @@
 
 @implementation ViewController
 
-- (void) didSaveCar:(NSString *)carName
+- (void)didSaveCar:(NSString *)carName
 {
-    NSLog(@"Name of the Car %@", carName);
+    if (carName)
+        NSLog(@"Name of the Car %@", carName);
 }
 
 - (void)viewDidLoad

@@ -11,7 +11,7 @@
 
 @synthesize delegate;
 
-- (void) saveCar:(NSString *)name
+- (void)saveCar:(NSString *)name
 {
     if (name)
         [self.delegate didSaveCar:name];
